@@ -12,5 +12,3 @@ sudo docker rm $(docker ps -a -q)
 
 # Start new container with the latest image
 sudo docker run -it -p 80:3000 $IMAGE_NAME:$IMAGE_VERSION
-sudo docker ps
-sudo docker ps -a
