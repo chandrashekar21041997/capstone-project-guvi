@@ -1,24 +1,42 @@
-$var1
-$var2
+#!/bin/bash
+DOCKER_USER="chandrashekar117"
+DOCKER_PASS="K.chandu@143"
+$master
+$dev
 echo "Please enter value for First variable"
-read var1
-echo "Please enter value for Second variable"
-read var2
-if["$var1" = 1];
-chmod +x b.sh
-chmod +x de.sh
-./b.sh
-docker login -u  chandrashekark117 -p K.chandu@143
-docker tag react:v1 chandrashekar117/prod
-docker push chandrashekar117/prod:tagname
-./de.sh
+read master
+echo "Please enter value for First variable"
+read dev
+
+if [[ "$master" == "master" ]]; then
+  echo "Current branch is master"
+  echo "master"
+  sudo docker stop $(docker ps -a -q)
+  sudo docker rm $(docker ps -a -q)
+  docker rmi -f node:latest
+  docker rmi -f react:v1
+  chmod +x b.sh
+  chmod +x de.sh
+  ./b.sh
+  ./de.sh
+  echo $DOCKER_PASS | docker login --username $DOCKER_USER --password-stdin
+  docker tag react:v1 chandrashekar117/prod
+  docker push chandrashekar117/prod
+elif [[ "$dev" == "dev" ]]; then
+  echo "Current branch is dev"
+  echo "dev"
+  sudo docker stop $(docker ps -a -q)
+  sudo docker rm $(docker ps -a -q)
+  docker rmi -f node:latest
+  docker rmi -f react:v1
+  chmod +x b.sh
+  chmod +x de.sh
+  ./b.sh
+  ./de.sh
+   echo $DOCKER_PASS | docker login --username $DOCKER_USER --password-stdin
+   sudo docker tag react:v1 chandrashekar117/dev
+   docker push chandrashekar117/dev
 else
-if["$var2" = 2];
-chmod +x b.sh
-chmod +x de.sh
-./b.sh
-sudo docker login -u  chandrashekark117 -p K.chandu@143
-sudo docker tag react:v1 chandrashekar117/dev
-sudo docker push chandrashekar117/dev:v1
-./de.sh
+  echo "Current branch is neither master nor dev"
 fi
+
