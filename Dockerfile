@@ -1,7 +1,8 @@
-FROM node:latest
+FROM nginx:latest
+RUN rm -f /usr/share/nginx/html/index.html
 COPY . /opt
 WORKDIR /opt
-RUN npm install
-CMD ["npm","start"]
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
 
 
