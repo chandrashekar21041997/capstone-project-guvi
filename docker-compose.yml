@@ -1,7 +1,9 @@
-version: '3.8'
+version: '3'
+
 services:
-  web:
-    image: react:VERSION
-    container_name: reactapp
+  app:
+    image: sharvesh923/prod:react-app-1
+    restart: always
     ports:
-      - "80:3000"
+      - "80:80"
+
