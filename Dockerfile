@@ -1,7 +1,7 @@
 FROM node:latest
-WORKDIR /usr/src/app
-COPY nodeapp/* /
+COPY . /opt
+WORKDIR /opt
 RUN npm install
-CMD [ "npm","start" ]
+CMD ["npm","start"]
 
 
