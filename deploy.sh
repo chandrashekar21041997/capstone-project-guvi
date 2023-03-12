@@ -5,4 +5,4 @@ sudo docker stop $(docker ps -a -q)
 sudo docker rm $(docker ps -a -q)
 
 # Start new container with the latest image
-sudo docker docker-compose up -d
+sudo docker-compose up -d
