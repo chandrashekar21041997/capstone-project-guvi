@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo docker build -t react-app:$BUILD_NUMBER .
+sudo docker build -t react-app:latest .
