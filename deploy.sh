@@ -1,4 +1,8 @@
-sh 'sudo docker login -u sharvesh923 -p ${docker_password}'
-                 sh 'sudo docker tag react-app:latest chandrashekark17/dev:react-app'
-                 sh 'sudo docker push chandrashekar/dev:react-app'
-                 echo "images pushed to dev repo."
+# Stop all running containers
+sudo docker stop $(docker ps -a -q)
+
+# Remove all containers
+sudo docker rm $(docker ps -a -q)
+
+# Start new container with the latest image
+sudo docker run -it -p 80:3000 react:v1
