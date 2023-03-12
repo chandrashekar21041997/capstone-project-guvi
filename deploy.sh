@@ -5,4 +5,4 @@ sudo docker stop $(docker ps -a -q)
 sudo docker rm $(docker ps -a -q)
 
 # Start new container with the latest image
-sudo docker run -it -p 80:3000 react-app:latest
+sudo docker run -it -p 80:3000 chandrashekar117/dev:react-app
