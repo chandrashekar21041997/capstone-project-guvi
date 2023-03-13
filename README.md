@@ -1,68 +1,55 @@
+Submission:-
+
+ jenkins (login page, configrtion, settings,execute step commands)
+ 
+![Screenshot (422)](https://user-images.githubusercontent.com/119240540/224638335-de007eb8-18d3-4efc-8936-7cf074d3bc3d.png)
 
 
-## Available Scripts
 
-In the project directory, you can run:
+![Screenshot (423)](https://user-images.githubusercontent.com/119240540/224638915-07d6f51c-4cee-4e6b-a941-b85b9751204c.png)
 
-### `npm start`
+![Screenshot (424)](https://user-images.githubusercontent.com/119240540/224639020-6c516c19-2b2b-4a59-a353-6ca0b2b233ec.png)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Gobal Config
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![Screenshot (427)](https://user-images.githubusercontent.com/119240540/224639338-89c27c9c-6540-4699-86cb-52d49e8120d2.png)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot (425)](https://user-images.githubusercontent.com/119240540/224639230-47f27b00-7565-4ec4-b586-3af1974ff2be.png)
+![Screenshot (426)](https://user-images.githubusercontent.com/119240540/224639255-a9abaafc-e214-42d5-9712-cff2117f5d18.png)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+AWS (EC2-console,SG Configs)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Screenshot (428)](https://user-images.githubusercontent.com/119240540/224639821-479ffd8a-4da6-4499-80da-cb372c71e655.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+jenkins EC2
+![Screenshot (429)](https://user-images.githubusercontent.com/119240540/224640166-e0b4d041-c775-41cb-926d-e0039ab5d80d.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+Destionation server EC2
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Screenshot (430)](https://user-images.githubusercontent.com/119240540/224640397-cbd7981c-8eae-4ee5-b5b2-e7dc3cf3f8d3.png)
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+![Screenshot (431)](https://user-images.githubusercontent.com/119240540/224640813-635bc613-6634-4bbd-a090-9ccf2d8bce29.png)
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Dockerhub with repo tages
+![Screenshot (432)](https://user-images.githubusercontent.com/119240540/224641037-9ee1e374-11cc-417d-93b9-f45175163dac.png)
 
-### Making a Progressive Web App
+![Screenshot (433)](https://user-images.githubusercontent.com/119240540/224641167-81148e6e-6579-4760-8b23-3e6b3155194b.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Cloud watch using aws
 
-### Advanced Configuration
+![Screenshot (434)](https://user-images.githubusercontent.com/119240540/224641359-186f01b9-1a38-4537-bd5b-39f9fec250f2.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+![Screenshot (435)](https://user-images.githubusercontent.com/119240540/224641510-456a8765-14ef-4aa6-8c7e-59383de781ab.png)
 
-### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
