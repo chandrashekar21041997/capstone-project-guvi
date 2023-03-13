@@ -5,10 +5,15 @@ Submission:-
 ![Screenshot (422)](https://user-images.githubusercontent.com/119240540/224638335-de007eb8-18d3-4efc-8936-7cf074d3bc3d.png)
 
 
-
 ![Screenshot (423)](https://user-images.githubusercontent.com/119240540/224638915-07d6f51c-4cee-4e6b-a941-b85b9751204c.png)
 
 ![Screenshot (424)](https://user-images.githubusercontent.com/119240540/224639020-6c516c19-2b2b-4a59-a353-6ca0b2b233ec.png)
+
+![Screenshot (437)](https://user-images.githubusercontent.com/119240540/224705782-8c01879a-42db-415b-ad30-fd6b718c1a0d.png)
+
+
+![Screenshot (438)](https://user-images.githubusercontent.com/119240540/224706003-66bc9317-ebdb-493c-85c0-1f9a1a1e16d4.png)
+
 
 Gobal Config
 
@@ -50,6 +55,8 @@ Cloud watch using aws
 ![Screenshot (434)](https://user-images.githubusercontent.com/119240540/224641359-186f01b9-1a38-4537-bd5b-39f9fec250f2.png)
 
 ![Screenshot (435)](https://user-images.githubusercontent.com/119240540/224641510-456a8765-14ef-4aa6-8c7e-59383de781ab.png)
+
+
 
 
 
